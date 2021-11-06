@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/rouletteGamliel.css">
+    <script src="../JQUERY/JQuery 3.5.1.js"></script>
+    <script src="../JQUERY/libraryRoulette.js"></script>
+    <script src="../JQUERY/fonctionRoulette.js"></script>
+    <script>
+        $(
+            function()
+            {
+                $('#lancerLaRoulette').click(LancerRoulette);
+            }
+        );
+
+
+    </script>
+    <title>Document</title>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="gauche">
+            <label for="">Votre mise : </label>
+            <input id="miseUtilisateur" type="text">
+            <br><br>
+            <label for="">Votre Tune : </label>
+            <input id="cagnotteUtilisateur" value="50" type="text" readonly>
+            <br><br>
+            <input id="lancerLaRoulette" type="button" value="Démmarrer le moteur">
+            <a href="../HTML/entrer.html"><input type="button" value="Retou au Menu" class="btnRetourMenu"></a>
+    </div>
+
+        <br><br><br><br><br><br><br><br><br><br>
+    <p class="para">vous avez gagné </p>
+        <div class="droite">
+            <div id="roulette" class="images">
+                
+                <ul id="aGauche">
+                    <li><img class="imgChiffres" src="../IMAGES/v1.png" alt=""></li>
+                    <li><img class="imgChiffres" src="../IMAGES/v2.png" alt=""></li>
+                    <li><img class="imgChiffres" src="../IMAGES/v3.png" alt=""></li>
+                    <li><img class="imgChiffres" src="../IMAGES/v4.png" alt=""></li>
+                    <li><img class="imgChiffres" src="../IMAGES/v5.png" alt=""></li>
+                </ul> 
+                <ul id="milieu">
+                    <li><img class="imgChiffres" src="../IMAGES/v1.png" alt=""></li>
+                    <li><img class="imgChiffres" src="../IMAGES/v2.png" alt=""></li>
+                    <li><img class="imgChiffres" src="../IMAGES/v3.png" alt=""></li>
+                    <li><img class="imgChiffres" src="../IMAGES/v4.png" alt=""></li>
+                    <li><img class="imgChiffres" src="../IMAGES/v5.png" alt=""></li>
+                </ul> 
+                <ul id="aDroite">
+                    <li><img class="imgChiffres" src="../IMAGES/v1.png" alt=""></li>
+                    <li><img class="imgChiffres" src="../IMAGES/v2.png" alt=""></li>
+                    <li><img class="imgChiffres" src="../IMAGES/v3.png" alt=""></li>
+                    <li><img class="imgChiffres" src="../IMAGES/v4.png" alt=""></li>
+                    <li><img class="imgChiffres" src="../IMAGES/v5.png" alt=""></li>
+                </ul> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>

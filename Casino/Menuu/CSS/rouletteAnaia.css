@@ -1,0 +1,160 @@
+body,
+html{
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #fff;
+} 
+#text
+{
+	color: rgb(255, 255, 255);
+	text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F, 0 0 0.2em #87F;
+}
+#text1
+{
+	color: rgb(255, 255, 255);
+	text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F, 0 0 0.2em #87F;
+}
+h1
+{
+	color: rgb(0, 0, 0);
+	text-shadow: 0 0 0.2em rgb(255, 255, 255), 0 0 0.2em rgb(255, 255, 255), 0 0 0.2em rgb(255, 255, 255);
+}
+#lancer,
+#lancer:before,
+#lancer:after {
+  cursor: pointer;
+  padding: 0.5em 2em;
+  display: inline-block;
+  background: rgb(0,212,255);
+  background: linear-gradient(90deg, rgba(0,212,255,1) 15%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+  color: #fff;
+  border-radius: 6px;
+  position: relative;
+  -webkit-transition: all 0.5s cubic-bezier(0.5, 0, 0.5, 1);
+  transition: all 0.5s cubic-bezier(0.5, 0, 0.5, 1);
+  box-shadow: 0 0 0 rgba(0,0,0,0);
+}
+
+#lancer:before,
+#lancer:after {
+  position: absolute;
+  content: attr(data-title);
+  z-index: -1;
+}
+
+#lancer:before {
+  top: -0.1em;
+  right: -0.1em;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+#lancer:after {
+  bottom: -0.1em;
+  left: -0.1em;
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+#lancer:hover {
+  background-color: rgba(127, 157, 181, 1);
+  box-shadow: 0.05em 0.05em 0.1em rgba(0,0,0,0.5); 
+}
+
+#lancer:hover:before {
+  top: 0;
+  right: 0;
+}
+#lancer:hover:after {
+  bottom: 0;
+  left: 0;
+}
+.imgPlanete
+{
+height: 200px;
+width: 200px;
+margin: 10px;
+    
+}
+ul{
+    list-style: none;
+
+}
+.gif
+{
+    height: 200px;
+}
+.images
+{
+    display: flex;
+    overflow: hidden;
+    height: 230px;
+}
+#aGauche
+{
+    position: relative;
+}
+#milieu
+{
+    position: relative;
+}
+#aDroite
+{
+    position: relative;
+}
+.feu
+{
+    display: none;
+}
+.perdu
+{
+    display: none;
+}
+.gagné
+{
+    display: none;
+}
+
+body{
+    background-image: url(../IMAGES/fond_espace.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#roulette
+{
+    margin-left: 300px;
+    margin-bottom: 30%;
+}
+#mise
+{
+	border-radius: 7px;
+    background: rgb(63,94,251);
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    color: white;    
+}
+#cagnotte
+{
+	border-radius: 7px;
+    background: rgb(63,94,251);
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    color: white;
+}
+#imgAnim
+{
+    margin-left: 400px;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+.btnRetourMenu
+{
+    margin-left: 50px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    font-family: Algerian;
+    font-size: 15px;
+    background-color: aqua;
+    color: black;
+}

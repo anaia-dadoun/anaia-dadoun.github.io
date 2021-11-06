@@ -1,0 +1,81 @@
+body
+{
+    margin: 10;
+    padding: 10;
+}
+.container
+{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    /* background: url(../IMAGES/letsgo.jpg); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.container div
+{
+    position: relative;
+    display: block;
+    float: left;
+    width: 20%;
+    height: 20vh;
+    /* background-clip:url(../HTML/index1.html); */
+}
+.container div:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../IMAGES/lasVegas.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transform-style: preserve-3d;
+    transform-origin: top;
+    transform: perspective(1000px) rotateX(0deg)
+        translateY(0);
+    transition: 0.5s linear;
+}
+.container div.flip:before
+{
+    transform: perspective(1000px) rotateX(90deg)
+        translateY(-50%);
+}
+
+.container div:after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../IMAGES/letsgo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transform-style: preserve-3d;
+    transform-origin: bottom;
+    transform: perspective(1000px) rotateX(-90deg)
+        translateY(50%);
+    transition: 0.5s linear;
+}
+.container div.flip:after
+{
+    transform: perspective(1000px) rotateX(0deg)
+        translateY(0);
+}
+
+/* #bouton
+{
+    width: 1000px;
+    height: 1000px;
+}
+#bouton h3
+{
+    width: 1000px;
+    height: 1000px;
+} */

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/rapido.css">
+    <title>Rapido Anaia&Gamliel</title>
+    <script src="../JQUERY/JQuery 3.5.1.js"></script>
+    <script src="../JQUERY/rapido.js"></script>
+    
+    <script>
+         $
+            (
+                function()
+                {
+                   
+                    $('#mytableA1').on('click', 'td',choixDuJoueurA);
+                    
+                    $(".grilleB").click(choixDuJoueurB);
+                    $('#trouver').click(chiffreAleatoire);
+                    $('#resselectioner').click(effacer);
+                        
+                }
+            );
+    </script>
+</head>
+<body>
+   
+    <h1>Rapido</h1>
+    <br>
+    <br>
+    <br>
+
+    <div id="containerGrilleB">
+
+    </div> 
+
+    
+    <div id="grilleA">
+        <div id="joueur">
+            <h4>Grille A Joueur</h4>    
+
+            <table id="mytableA1">
+                <tr>
+                  
+                    <td class="gris">1</td>
+                    <td class="gris">2</td>
+                    <td class="gris">3</td>
+                    <td class="gris">4</td>
+                    <td class="gris">5</td>
+                    
+                </tr>
+                <tr>
+                    <td class="gris">6</td>
+                    <td class="gris">7</td>
+                    <td class="gris">8</td>
+                    <td class="gris">9</td>
+                    <td class="gris">10</td>
+                    
+                </tr>
+                <tr>
+                    <td class="gris">11</td>
+                    <td class="gris">12</td>
+                    <td class="gris">13</td>
+                    <td class="gris">14</td>
+                    <td class="gris">15</td>
+                    
+                </tr>
+                <tr>
+                    <td class="gris">16</td>
+                    <td class="gris">17</td>
+                    <td class="gris">18</td>
+                    <td class="gris">19</td>
+                    <td class="gris">20</td>
+                    
+                </tr>
+            </table>
+
+        
+ 
+            <h4>Grille A Ordinateur</h4> 
+            <br>
+            <br>
+            <br>
+        <div id="ordinateur">
+            <table id="mytableA2">
+
+                
+                <tr>
+                    <td class="grisB">1</td>
+                    <td class="grisB">2</td>
+                    <td class="grisB">3</td>
+                    <td class="grisB">4</td>
+                    <td class="grisB">5</td>
+                    
+                </tr>
+                <tr>
+                    <td class="grisB">6</td>
+                    <td class="grisB">7</td>
+                    <td class="grisB">8</td>
+                    <td class="grisB">9</td>
+                    <td class="grisB">10</td>
+                    
+                </tr>
+                <tr>
+                    <td class="grisB">11</td>
+                    <td class="grisB">12</td>
+                    <td class="grisB">13</td>
+                    <td class="grisB">14</td>
+                    <td class="grisB">15</td>
+                    
+                </tr>
+                <tr>
+                    <td class="grisB">16</td>
+                    <td class="grisB">17</td>
+                    <td class="grisB">18</td>
+                    <td class="grisB">19</td>
+                    <td class="grisB">20</td>
+                    
+                </tr>
+            </table>
+
+        </div>   
+
+    </div>
+
+    <div id="containerGrilleB">
+
+   
+
+</div>
+
+    <div id="tblgrilleB">
+        
+        <table id="mytableB1">
+            <tr>
+                <h4>Grille B Joueur</h4>
+                <br>
+                <td class="grilleB">1</td>
+                <td class="grilleB">2</td>
+                <td class="grilleB">3</td>
+                <td class="grilleB">4</td>
+            </tr>
+        </table>
+    
+
+
+        
+        
+
+        <table id="mytableB2">
+            <tr>
+                <br><br><br>
+                <h4>Grille B Ordinateur</h4>
+                <td class="grilleBordinateur">1</td>
+                <td class="grilleBordinateur">2</td>
+                <td class="grilleBordinateur">3</td>
+                <td class="grilleBordinateur">4</td>
+            </tr>
+        </table>
+    </div>
+
+    <br><br>
+
+        <div id="miseDiv">
+
+            <label for=""><b>Votre mise: </b></label>
+            <input id="miseUtilisateur" type="number">
+            <br><br>
+            <label for=""><b>Votre cagnotte: </b></label>
+            <input id="cagnotteUtilisateur" value="50" type="text" readonly>
+
+            <br><br><br>
+
+        </div>
+
+        <div id="bouton">
+            <input type="button" value="Jouer" id="trouver">
+            <br><br>
+            <input type="button" value="Reselectioner" id="resselectioner">
+        </div>
+
+        <br><br>
+
+        <table id="resultatDesCommuns">
+            <tr id="tableauCommun">
+
+            </tr>
+        </table>
+        <div id="resultat"></div>
+
+        <a href="../HTML/entrer.html"><input type="button" value="Retour" id="retour"></a>
+
+
+        
+</body>
+</html>

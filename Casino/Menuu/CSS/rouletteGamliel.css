@@ -1,0 +1,124 @@
+body 
+{
+  justify-content: center;
+  align-items: center;
+  background-image: url(../IMAGES/garage.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: -150px;
+  font-family: sans-serif;
+}
+.imgChiffres
+{
+height: 200px;
+/* image-resolution: center; */
+margin: 15px;
+    
+}
+ul{
+    list-style: none;
+
+}
+.images
+{
+    display: flex;
+    overflow: hidden;
+    height: 230px;
+}
+#aGauche
+{
+    position: relative;
+}
+#milieu
+{
+    position: relative;
+}
+#aDroite
+{
+    position: relative;
+}
+.container
+{
+    color: whitesmoke;
+}
+.para
+{
+	display: none;
+}
+#lancerLaRoulette {
+	background-image: radial-gradient(circle at 120.71% 50%, #b4b6b9 0, #b4b6b9 3.33%, #b5b6b9 6.67%, #b5b6b9 10%, #b6b6b9 13.33%, #b6b6b9 16.67%, #b7b6b9 20%, #b8b5b9 23.33%, #b8b5b8 26.67%, #b9b5b8 30%, #b9b5b7 33.33%, #b9b5b7 36.67%, #bab5b6 40%, #bab5b6 43.33%, #bab5b5 46.67%, #bab5b5 50%, #bab5b5 53.33%, #bab5b4 56.67%, #bab5b4 60%, #bab5b3 63.33%, #b9b5b3 66.67%, #b9b6b3 70%, #b8b6b3 73.33%, #b8b6b3 76.67%, #b8b6b3 80%, #b7b6b3 83.33%, #b6b6b3 86.67%, #b6b6b3 90%, #b5b7b3 93.33%, #b5b7b3 96.67%, #b4b7b4 100%);
+	color: white;
+	--width: 250px;
+	--height: calc(var(--width) / 3);
+	width: var(--width);
+	height: var(--height);
+	text-align: center;
+	line-height: var(--height);
+	font-size: 15px;
+	font-family: sans-serif;
+	letter-spacing: 0.2em;
+	border: 1px solid rgb(255, 255, 255);
+	border-radius: 2em;
+	transform: perspective(500px) rotateY(-15deg);
+	text-shadow: 6px 3px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: 2px 0 0 5px rgba(0, 0, 0, 0.2);
+	transition: 0.5s;
+	position: relative;
+	overflow: hidden;
+	outline: none;
+}
+
+#lancerLaRoulette:hover {
+	transform: perspective(500px) rotateY(15deg);
+	text-shadow: -6px 3px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: -2px 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#lancerLaRoulette::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to right, transparent, white, transparent);
+	left: -100%;
+	transition: 0.5s;
+}
+
+#lancerLaRoulette:hover::before {
+	left: 100%;
+}
+#miseUtilisateur
+{
+	padding-left: 75px;
+	color: whitesmoke;
+	background-color: rgb(92, 88, 88);
+	border-radius: 8px;
+}
+#cagnotteUtilisateur
+{
+	padding-left: 75px;
+	color: whitesmoke;
+	background-color: rgb(92, 88, 88);
+	border-radius: 8px;
+}
+
+.para
+{
+	margin-left: 550px;
+	margin-bottom: 750px;
+	color: white;
+	font-size: 70px;
+	font-family: Algerian;
+}
+.btnRetourMenu
+{
+    margin-left: 50px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    font-family: Algerian;
+    font-size: 15px;
+    background-color: aqua;
+    color: black;
+}

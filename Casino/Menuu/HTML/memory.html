@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Anaia&Gamliel</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+
+*{
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+  
+   
+
+
+}
+
+body{
+    background-color: #777;
+}
+
+.level1{
+    background-image: url(../IMAGES/imageLvl1/80653735_o.gif);
+    background-size: 100%;
+
+}
+.level2{
+    background-image: url(../IMAGES/imageLvl2/original.gif);
+    background-size: 100%;
+
+
+}
+.level3{
+    /* background-image: url(../CoursAnaia/imageLvl3/7fb7871ddff2bb1acff6b83b3bceb0ac.gif); */
+    background-size: 100%;
+    background-image: url(../IMAGES/imageLvl3/ee8dd7ed56260afac46be5446d00b17c.gif);
+    background-image: url(../IMAGES/imageLvl3/7c977b9e7440acb69f9af7a1931cdf81.gif);
+    background-image: url(../IMAGES/imageLvl3/0_ecf7b_3c915a1_X5L.gif);
+    size: 100%;
+    background-size: 2000px;
+    
+    
+    
+
+}
+    .container
+    {
+        width: 1080px;
+        margin: 0 auto;
+
+    }
+    .card
+    {
+        height: 200px;
+        float: left;
+        margin: 10px;
+        width: 150px;
+       /* background-image: url("./compass-2946959_640.jpg"); */
+       background-color:rgb(166, 253, 224);
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 10px 10px 10px #ccc;
+
+    }
+    .card p {
+        font-size: 80px;
+        color: whitesmoke;
+        vertical-align: middle;
+        
+    }
+
+    .card:hover{
+        cursor: pointer;
+        border: 3px solid teal;
+    }
+/* /LEVEL 1/ */
+    .card1-level1 {
+        font-size: 80px;
+        /* background-image: url("./bridge-53769_640.jpg"); */
+        background-image: url(../IMAGES/imageLvl1/img1.jpg);
+        color: whitesmoke;
+        vertical-align: middle;
+        
+    }
+    
+    .card2-level1  {
+        font-size: 80px;
+        /* background-image: url("./bridge-53769_640.jpg"); */
+        background-image: url(../IMAGES/imageLvl1/img2.jpg);
+        color: whitesmoke;
+        vertical-align: middle;
+        
+    }
+    
+    .card3-level1  {
+        font-size: 80px;
+        /* background-image: url("./bridge-53769_640.jpg"); */
+        background-image: url(../IMAGES/imageLvl1/img3.jpg);
+        color: whitesmoke;
+        vertical-align: middle;
+        
+    }
+/* /LEVEL 2/ */
+ 
+    .card1-level2 {
+        font-size: 80px;
+        /* background-image: url("./bridge-53769_640.jpg"); */
+        background-image: url(../IMAGES/imageLvl2/i1.jpg);
+        color: whitesmoke;
+        vertical-align: middle;
+        
+    }
+    
+    .card2-level2  {
+        font-size: 80px;
+        /* background-image: url("./bridge-53769_640.jpg"); */
+        background-image: url(../IMAGES/imageLvl2/i2.jpg);
+        color: whitesmoke;
+        vertical-align: middle;
+        
+    }
+    
+    .card3-level2  {
+        font-size: 80px;
+        /* background-image: url("./bridge-53769_640.jpg"); */
+        background-image: url(../IMAGES/imageLvl2/i3.jpg);
+        color: whitesmoke;
+        vertical-align: middle;
+        
+    }
+    
+    .card4-level2 {
+        font-size: 80px;
+        /* background-image: url("./bridge-53769_640.jpg"); */
+        background-image: url(../IMAGES/imageLvl2/i4.jpg);
+        color: whitesmoke;
+        vertical-align: middle;
+        
+    }
+    
+    .card5-level2 {
+        font-size: 80px;
+        /* background-image: url("./bridge-53769_640.jpg"); */
+        background-image: url(../IMAGES/imageLvl2/i5\ \(2\).jpg);
+        color: whitesmoke;
+        vertical-align: middle;
+        
+    }
+    
+    .card6-level2 {
+        font-size: 80px;
+        /* background-image: url("./bridge-53769_640.jpg"); */
+        background-image: url(../IMAGES/imageLvl2/i6.jpg);
+        color: whitesmoke;
+        vertical-align: middle;
+        
+    }
+    /* /LEVEL 3/ */
+
+    
+    .card1-level3 {
+        font-size: 80px;
+        /* background-image: url("./bridge-53769_640.jpg"); */
+        background-image: url(../IMAGES/imageLvl3/img1.jpg);
+        color: whitesmoke;
+        vertical-align: middle;
+        
+    }
+    
+    .card2-level3  {
+        font-size: 80px;
+        /* background-image: url("./bridge-53769_640.jpg"); */
+        background-image: url(../IMAGES/imageLvl3/img2.jpg);
+        color: whitesmoke;
+        vertical-align: middle;
+        
+    }
+    
+    .card3-level3  {
+        font-size: 80px;
+        /* background-image: url("./bridge-53769_640.jpg"); */
+        background-image: url(../IMAGES/imageLvl3/img3.jpg);
+        color: whitesmoke;
+        vertical-align: middle;
+        
+    }
+    
+    .card4-level3 {
+        font-size: 80px;
+        /* background-image: url("./bridge-53769_640.jpg"); */
+        background-image: url(../IMAGES/imageLvl3/img4.jpg);
+        color: whitesmoke;
+        vertical-align: middle;
+        
+    }
+    
+    .card5-level3 {
+        font-size: 80px;
+        /* background-image: url("./bridge-53769_640.jpg"); */
+        background-image: url(../IMAGES/imageLvl3/img5.jpg);
+        color: whitesmoke;
+        vertical-align: middle;
+        
+    }
+    
+    .card6-level3 {
+        font-size: 80px;
+        /* background-image: url("./bridge-53769_640.jpg"); */
+        background-image: url(../IMAGES/imageLvl3/img6.jpg);
+        color: whitesmoke;
+        vertical-align: middle;
+        
+    }
+    
+    .card7-level3 {
+        font-size: 80px;
+        /* background-image: url("./bridge-53769_640.jpg"); */
+        background-image: url(../IMAGES/imageLvl3/img7.jpg);
+        color: whitesmoke;
+        vertical-align: middle;
+        
+    }
+    .card8-level3 {
+        font-size: 80px;
+        background-image: url("../IMAGES/imageLvl3/img8.jpg");
+        color: whitesmoke;
+        vertical-align: middle;
+        
+    }.card9-level3 {
+        font-size: 80px;
+        background-image: url("../IMAGES/imageLvl3/img9.jpg");
+        color: whitesmoke;
+        vertical-align: middle;
+        
+    }
+    .card10-level3 {
+        font-size: 80px;
+        background-image: url("../IMAGES/imageLvl3/img10.jpg");
+        
+        color: whitesmoke;
+        vertical-align: middle;
+        
+    }.card11-level3 {
+        font-size: 80px;
+        background-image: url("../IMAGES/imageLvl3/img11.jpg");
+        color: whitesmoke;
+        vertical-align: middle;
+        
+    }.card12-level3 {
+        font-size: 80px;
+        background-image: url("../IMAGES/imageLvl3/img12.jpg");
+        color: whitesmoke;
+        vertical-align: middle;
+        
+    }
+
+    .counter {
+        display: table-cell;
+        margin:1.5%;
+        font-size:25px;
+        background-color: #d39797;
+        width:50px;
+        border-radius: 50%;
+        height:50px;
+        vertical-align: middle;
+        text-align: center;
+        margin-right: 5%;
+        }
+
+
+    h1
+    {
+        color:rgb(15, blue);
+        font-family: Algerian;
+        size: unset;
+
+    }
+    .btnRetourMenu
+{
+    margin-left: 50px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    font-family: Algerian;
+    font-size: 15px;
+    background-color: aqua;
+    color: black;
+}
+    </style>
+
+</head>
+<body>
+
+    <h1>Jeu Memory</h1>
+    <div class="choix">
+        <button class="button-lvl1" data-value="1">Niveau Débutant</button> 
+        <button class="button-lvl2" data-value="2">Niveau Expert</button> 
+        <button class="button-lvl3" data-valuel="3">Niveau Comfirmé</button> 
+    </div>
+
+    <a href="../HTML/entrer.html"><input type="button" value="Retou au Menu" class="btnRetourMenu"></a>
+
+    <div class="container">
+    </div>
+    <div class="counter"></div>
+</body>
+
+    <script>
+
+        $(document).ready(function() {
+            var nombredecoup = 0;
+            var app = {
+                cards: [],
+                niveau :0,
+                init: function() {
+                    $('.counter').hide();
+                /* this.niveau = prompt("1 = Facile \n2 = Moyen\n3 = Difficile");
+                  while(this.niveau!=1 && this.niveau!=2 && this.niveau!=3){
+                    this.niveau = prompt("Erreur saisie [1,2,3]\n1 = Facile \n2 = Moyen\n3 = Difficile");
+                  }
+                  app.choixDifficulte();
+                  app.melanger();*/
+                  app.clickButton();
+                },
+                clickButton: function() {
+                    $('.button-lvl1').on('click', function(){
+                        app.niveau=1;
+                      $('.button-lvl1').animate({opacity: 0});
+                      $('.button-lvl2').animate({opacity: 0});
+                      $('.button-lvl3').animate({opacity: 0});
+                      app.choixDifficulte();
+                      app.melanger();
+
+                    });
+                    $('.button-lvl2').on('click', function(){
+                        app.niveau=2;
+                      $('.button-lvl1').animate({opacity: 0});
+                      $('.button-lvl2').animate({opacity: 0});
+                      $('.button-lvl3').animate({opacity: 0});
+                      app.choixDifficulte();
+                      app.melanger();
+
+                    });
+                    $('.button-lvl3').on('click', function(){
+                        app.niveau=3;
+                      $('.button-lvl1').animate({opacity: 0});
+                      $('.button-lvl2').animate({opacity: 0});
+                      $('.button-lvl3').animate({opacity: 0});
+                      app.choixDifficulte();
+                      app.melanger();
+
+                    });
+                },
+                choixDifficulte(){
+                  if(this.niveau==1){
+                    this.cards=[1,1,2,2,3,3];
+                    for(var i= 0;i<6;i++){
+                      $('.container').append("<div class=\"card unmatched\"></div>");
+                    }
+
+                    $('body').addClass('level1');
+                  }
+                  else{
+                    if(this.niveau==2){
+                      this.cards=[1,1,2,2,3,3,4,4,5,5,6,6];
+                      for(var i= 0;i<12;i++){
+                        $('.container').append("<div class=\"card unmatched\"></div>");
+                      }
+                      $('body').addClass('level2');
+                    }
+                    else{
+                      this.cards=[1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12];
+                      for(var i= 0;i<24;i++){
+                      $('.container').append("<div class=\"card unmatched\"></div>");
+                    }
+                    $('body').addClass('level3');
+                    }
+                  }
+                  $('.counter').show();
+
+                },
+                melanger: function() {
+                    
+                    var aleatoire = 0;
+                    var temporaire =0;
+                    for (i = 1; i < app.cards.length; i++)
+                    {
+                        aleatoire = Math.round(Math.random() * i);
+                        temporaire = app.cards[i];
+                        app.cards[i] = app.cards[aleatoire];
+                        app.cards[aleatoire] = temporaire;
+
+                    } 
+                    app.attribuerValeur();
+                    console.log('melanger Card Array: ' + app.cards);
+                },
+                
+                attribuerValeur: function() {
+                    $('.card').each(function(index) {
+                        $(this).attr('data-card-value', app.cards[index]);
+                    });
+                    app.clickHandlers();
+
+                },
+                clickHandlers: function() {
+                    $('.card').on('click', function(){
+                      if($('.selected').length < 2) {
+                        if($(this).hasClass('unmatched')){
+                            var classValue = 'card'+$(this).data('cardValue')+'-level'+app.niveau;
+                            $(this).addClass('selected').addClass(classValue);
+                            if($('.selected').length == 2) {
+                              app.comparerlescartes();
+                            }
+                          }
+                      }
+                    });
+                },
+                comparerlescartes: function() {
+
+                        nombredecoup = nombredecoup +1;
+                        if($('.selected').first().data('cardValue') == $('.selected').last().data('cardValue')) {
+                        $('.selected').each(function() {
+                            $(this).animate({opacity: 0}).removeClass('unmatched');
+                        });
+                        // remove cards
+                        $('.selected').each(function() {
+                            $(this).removeClass('selected');
+
+                        });
+                        app.checkWin();
+                        } else {
+                        // flip cards back over
+                            setTimeout(function() {
+                                $('.selected').each(function() {
+                                    var classValue = 'card'+$(this).data('cardValue')+'-level'+app.niveau;
+                                    $(this).html('').removeClass('selected').removeClass(classValue);
+                                });
+                            }, 1000);
+                        }
+                        $('.counter').html(nombredecoup);
+
+            },
+            checkWin: function() {
+                if ($('.unmatched').length === 0) {
+                    $('.counter').hide();
+
+                    $('.container').html('<h1>Vous avez gagnez!</h1><br><h1>en '+nombredecoup+' coups </h1>');
+
+                }
+            } 
+
+            };
+            
+            app.init();
+        });
+        
+
+        
+    </script>
+
+
+</html>

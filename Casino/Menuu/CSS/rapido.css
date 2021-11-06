@@ -1,0 +1,131 @@
+body{
+    background-color: moccasin;
+}
+
+h1{
+    text-align: center;
+    font-family:  Algerian;
+
+}
+
+
+
+table
+{
+    border-collapse: collapse;
+    border-color: black;
+    
+}
+td
+{
+    border-color: black;
+    border-collapse: collapse;
+    border-style: solid;
+
+    width: 120px;
+    height: 80px;
+    text-align: center;
+    background-color: rgb(131,129, 129);
+    
+}
+tr{
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+
+}
+
+
+
+#containerGrilleB
+{
+    display: grid;
+ }
+
+ .grilleB
+ {
+    background-color: grey;
+ }
+ .gris
+ {
+    background-color: grey;
+ }
+ .rose
+ {
+    background-color: aqua 
+ }
+ .orange
+ {
+    background-color: hotpink
+ }
+
+#ordinateur
+{
+   
+    display: flex;
+    margin-left: 15px;
+
+
+}
+#joueur
+{
+    float: left;
+    display: flex;
+    margin-left: 15px;
+
+
+   
+}
+#mytableA1
+{
+    
+    margin-right: 30px;
+    margin-top: 68px;
+    position: relative;
+    margin: 68px;
+    margin-right: 98px;
+    
+    
+}
+#mytableB2
+{
+    display: flex;
+    position: relative;
+    
+    margin: 68px;
+    margin-right: 98px;
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: black;
+
+
+
+}
+
+
+#mytableB1
+{
+    display: flex;
+    margin: 68px;
+    border-style: solid;
+    
+
+}
+#mytableA2
+{
+   
+
+    display: grid;
+    margin: 68px;
+
+}
+#tblgrilleB
+{
+    display: inline-flex;
+    position: relative;
+    margin-left: 15px;
+    margin: 68px;
+   
+
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
