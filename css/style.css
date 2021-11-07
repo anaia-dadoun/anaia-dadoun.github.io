@@ -1539,3 +1539,13 @@ ul.portfolio li.active {
   
     
 }
+.row
+{
+    display: flex;
+}
+.item
+{
+    flex: 1;
+    padding: 1em;
+    border: solid;
+}
