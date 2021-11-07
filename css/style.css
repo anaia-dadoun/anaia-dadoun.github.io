@@ -668,6 +668,77 @@ ul.portfolio li.active {
     -moz-border-radius: 4px;
     border-radius: 4px;
 }
+.theme-list {
+
+    position: relative;
+
+    padding-left: 100px;
+
+    list-style: none;
+
+    z-index: 10;
+
+}
+
+
+
+.theme-list::before {
+
+    content: '';
+
+    position: absolute;
+
+    top: 0;
+
+    bottom: 0;
+
+    left: 9px;
+
+    margin: auto;
+
+    width: 1px;
+
+    height: 85%;
+
+    background-color: #cacdd6;
+
+    z-index: -1;
+
+}
+
+
+
+.theme-list li {
+
+    display: block;
+
+    margin: 5px 0;
+
+}
+
+
+
+.theme-list li::before {
+
+    content: "";
+
+    position: absolute;
+
+    left: 3px;
+
+    margin: 6px 0;
+
+    width: 12px;
+
+    height: 12px;
+
+    border-radius: 50%;
+
+    background-color: #fff;
+
+    border: 2px solid #888;
+
+}
 
 
 
@@ -675,7 +746,7 @@ ul.portfolio li.active {
 
 .statistics-section {
 	position: relative;
-    background: url(../images/fondgris.png);  
+    background: url(../images/bg/compta.jpg);  
     background-size: cover;
     z-index: 1;
 }
@@ -683,7 +754,7 @@ ul.portfolio li.active {
 .statistics {
   margin: 25px 0;
   overflow: hidden;
-  color: #ffffff;
+  color: black;
 }
 
 .statistics.block .statistics-icon,
