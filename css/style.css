@@ -1613,3 +1613,6 @@ ul.portfolio li.active {
 a{
     text-align: center;
 }
+img{
+    display: block;
+}
