@@ -1618,6 +1618,25 @@ img{
 }
 h2{
     height: 3px hover;
-    color: rgb(61, 10, 10);
+    color: rgb(145, 23, 23);
+    border: outset;
+    border-radius: 100px;
+    border-left: unset;
+    border-right: unset;
+    text-shadow: palevioletred;
     
+
+}
+h1
+{
+    height: 3px hover;
+    color: tomato;
+} 
+.wsh
+{
+  display: grid;
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
