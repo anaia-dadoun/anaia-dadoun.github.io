@@ -110,9 +110,9 @@
 		
         $(window).load(function(){
         $(".typing").typed({
-            strings: ["I am Anaia Dadoun.", "Développeuse informatique", ],    /* You can change the home section typing text from
-	                                                                                            here and do not use "&" use "and" */
+            strings: ["Bienvenue dans mon portfolio","Je suis Anaia Dadoun.", "Développeuse informatique", ],    /* You can change the home section typing text from                                                                               here and do not use "&" use "and" */
             typeSpeed: 50
+          
           });
          });
         
