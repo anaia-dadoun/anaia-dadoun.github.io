@@ -95,119 +95,100 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="section-title">
-                    <h2>Projet GSB</h2>
+                    <h2>Projet GSB PHP</h2>
                     <div class="col-md-10 text-center">
-                       <!-- <p>    Voici la page d'accueil du projet        </p>   -->
+                       <p>Lors de cette 2 eme année, nous avons appris à utiliser le Modele Vue Controleur pour les projets php avec notre professeur de développement Web, à travers diverse projet.
+
+                        Notre professeur nous a demandé de créer un site pour une gestion de matériel médicales. Ce dernier est composé de plusieurs fonctionalités repartit en deux categories : les visiteurs et la gestion de materiels. Pour les visiteurs et la gestion de materiels, les fonctions demandé sont : lister, modifier, ajouter rechercher et supprimer. Pour la gestion des matériels, une fonction reserver et restituer étaient en plus.
+                        
+                        Nous avons établi ce projet en équipe, pour se partager les différentes tâches, nous avons créer un gestionnaire de projet avec le Logiciel Trello.</p>
                     </div>
                 </div>
             </div>
         </div>
 </div>
 
-<img  class="img1" src="images/gsb.png" draggable="false"   > 
+
+
+<div class="col-md-6 col-sm-12 col-xs-12">
+    <br>
+   <img class="img" src="images/gsbphp/bddGestion.jpg" height="540px" draggable="false" alt="" > 
+
+</div>
+<div class="col-md-6 col-sm-12 col-xs-12">
+    <br>
+   <img class="img" src="images/gsbphp/mcd.jpg" height="540px"  draggable="false" alt="" > 
+   
+   
+</div>
+
 
 <!-- <div class="col-md-4 col-sm-6"> -->
     <!-- <i class="fa fa-mobile color-1"></i> -->
     <!-- <img src="../rolling/images/_CV.png" alt="" width="750px" height="550px"> -->
     
     <br><br>
-    <p>  Le client doit pouvoir réaliser les éléments suivants : 
+    <p>  
         
-        Insérer, modifier, lister des types d’individus 
+        Pour ce projet, nous avons commencé par créer une base donnée. En premier lieu, nous avons créer un MCD avec le logiciel Looping puis sur Mysql.
         
-        Insérer, modifier, lister des médicaments 
-        
-        Insérer une prescription (pour un médicament, un type d’individu, un dosage) 
-        
-        Créer pour un médicament, la liste des médicaments non conseillés. 
-        
-        Avoir des statistiques sous forme d’indicateurs (nombres, pourcentages, …). </p>
+    
+    </p>
     <hr>
     
 </div>   
 
 </div>
+<img class="img" src="images/gsbphp/trello.jpg" height="540px" draggable="false" alt="" > 
+
 
 <div class="col-md-6 col-sm-12 col-xs-12">
     <br>
-   <img class="img" src="images/medoc.png" height="540px" draggable="false" alt="" > 
+    <img class="img" src="images/gsbphp/listerVisiteur.jpg"  draggable="false" alt="" > 
 
 </div>
 <div class="col-md-6 col-sm-12 col-xs-12">
     <br>
-   <img class="img" src="images/ajoutmedoc.png" height="540px"  draggable="false" alt="" > 
+   <img class="img" src="images/gsbphp/ajouterVisiteur.jpg"  draggable="false" alt="" > 
    
    
 </div>
-<p>L'activité commerciale d'un laboratoire pharmaceutique est principalement réalisée par les visiteurs médicaux. En effet, un médicament remboursé par la sécurité sociale n’est jamais vendu directement au consommateur mais prescrit au patient par son médecin. 
-
-    Toute communication publicitaire sur les médicaments remboursés est d'ailleurs interdite par la loi. Il est donc important, pour l’industrie pharmaceutique, de promouvoir ses produits directement auprès des praticiens. </p>
-  
+<p>La partie du projet concernant les visiteurs, représente divers actions qu'on a dû réaliser. Tout d'abord, pouvoir les lister, ajouter un utilisateur ou bien en modifier un. Toutes ces méthodes ont dû être réalisé à travers un MVC qui redirige les requêtes SQL que j'ai dû créer à la Vue designé pour l'affichage demandé, ou encore verifier si un visiteur existe déjà lors de sa création.
 
 
-<br><br>
 
-<div class="col-md-6 col-sm-12 col-xs-12">
-    <br>
-   <img class="img" src="images/interaction.png"  draggable="false" alt="" > 
-  
-</div>
-
-        <!-- <i class="fa fa-mobile color-1"></i> -->
-        <!-- <img src="../rolling/images/_CV.png" alt="" width="750px" height="550px"> -->
-       
-    </div>   
-
-</div>
-
-<br><br>
-<p>Les produits distribués par le laboratoire sont des médicaments : ils sont identifiés par un numéro de produit (dépôt légal) qui correspond à un nom commercial (ce nom étant utilisé par les visiteurs et les médecins). 
-
-    <p>Comme tout médicament, un produit a des effets thérapeutiques et des contre-indications. </p> 
-     
-     
-    <p>On connait sa composition (liste des composants et quantité) et les interactions qu'il peut avoir avec d'autres médicaments (éléments nécessaires à la présentation aux médecins). 
- </p> 
-     
-     <p>   La posologie (quantité périodique par type d’individu: adulte, jeune adulte, enfant, jeune enfant ou nourrisson) dépend de la présentation et du dosage. 
-     </p>
-     
-      
-     
- <p>
-     Un produit relève d’une famille (antihistaminique, antidépresseur, antibiotique, …). 
- 
- </p> 
-         
-     
- <p>
-     Lors d'une visite auprès d'un médecin, un visiteur présente un ou plusieurs produits pour lesquels il pourra laisser des échantillons. De manière à pouvoir gérer les coûts des visites, le prix de l'échantillon est une donnée à retenir dans la base. </p>
- 
- 
- 
- </p>
 
 
 <div class="col-md-6 col-sm-12 col-xs-12">
     <br>
-   <img class="img" src="images/type.png"  draggable="false" alt="" > 
+    <img class="img" src="images/gsbphp/supprimerVisiteur.jpg"  draggable="false" alt="" > 
+
 </div>
 <div class="col-md-6 col-sm-12 col-xs-12">
     <br>
-   <img class="img" src="images/modifmedoc.png"  height="340px" draggable="false" alt="" > 
+   <img class="img" src="images/gsbphp/modifierVisiteur.jpg"  draggable="false" alt="" > 
+   
    
 </div>
-<div class="col-md-4 col-sm-6">
-        <!-- <i class="fa fa-mobile color-1"></i> -->
-        <!-- <img src="../rolling/images/_CV.png" alt="" width="750px" height="550px"> -->
-        
-        <br><br>
-       
-    </div>   
-
-</div>
 
 
+
+
+ 
+
+<p>
+    Pour ajouter un visiteur, on a créé un formulaire avec toutes les informations necessaires. Une fois que le visiteur a bien été ajouté, il s'affichera directement à la suite de la liste des visiteurs. Pour modifier les coordonnées d'un visiteur, il y aura un même formulaire pour ce faire.
+
+
+
+</p>
+<!-- 
+<p>
+
+
+
+    Pour rechercher ou supprimer un visiteur, on a créé un formulaire ou le médecin devra rentrer la référence du visiteur. Un tableau avec les informations du visiteur s'affichera et pour le supprimé, un message de confirmation s'affichera .
+</p> -->
 
 
 <div class="col-md-9 col-sm-6">
@@ -245,6 +226,7 @@
     </div>   
 
 </div>
+<br></br><br><br><br><br><br><br>
 
 <div class="col-md-4 text-center">
                  <div class="col-md-4 text-center">
