@@ -107,6 +107,15 @@ img {
     height: 450px;
     padding-left: 250px;
 }
+.img5
+{
+    margin-left: 105px;
+    width: 480px;
+    height:600px;
+    border-style: ridge ;
+    border-color: #000000;
+    border-radius: 35px;
+}    
 
 .align
 {
@@ -779,8 +788,7 @@ ul.portfolio li.active {
 /* Statistics */
 
 .statistics-section {
-	position: relative;
-    background: url(../images/bg/compta.jpg);  
+    background: url(../images/a0a74adca1_50147933_developpeur-web1.jpg);  
     background-size: cover;
     z-index: 1;
 }
